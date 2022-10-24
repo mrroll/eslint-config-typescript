@@ -108,6 +108,15 @@ const config = {
         ],
       },
     ],
+
+    ...(isDependency('react') && {
+      'react/jsx-handler-names': [
+        'warn',
+        {
+          checkLocalVariables: true,
+        },
+      ],
+    }),
   },
 };
 
