@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.70.0",
+  "version": "0.71.0",
   "license": "MIT",
   "engines": {
     "node": "^14.19.0 || ^16.10.0 || >=17.0.0"
@@ -31,8 +31,8 @@
   "dependencies": {
     "@next/eslint-plugin-next": "^13.0.6",
     "@rushstack/eslint-patch": "^1.2.0",
-    "@typescript-eslint/eslint-plugin": "^5.46.0",
-    "@typescript-eslint/parser": "^5.46.0",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-import-resolver-typescript": "^3.5.2",
     "eslint-plugin-import": "^2.26.0",
