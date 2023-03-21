@@ -116,6 +116,7 @@ const config = {
           checkLocalVariables: true,
         },
       ],
+      'react/prop-types': [0],
     }),
   },
 };
