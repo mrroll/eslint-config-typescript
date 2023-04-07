@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.146.0",
+  "version": "0.147.0",
   "license": "MIT",
   "engines": {
     "node": "^14.19.0 || ^16.10.0 || >=17.0.0"
@@ -29,7 +29,7 @@
     "yarn": "1.22.19"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^13.2.4",
+    "@next/eslint-plugin-next": "^13.3.0",
     "@rushstack/eslint-patch": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
