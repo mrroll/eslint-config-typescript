@@ -3,36 +3,77 @@ import isDependency from '@/helpers/is-dependency';
 const truthyArray = (array: Array<unknown>) => array.filter(Boolean);
 
 const config = {
+  root: true,
+
   extends: truthyArray([
     'eslint:recommended',
     isDependency('react') && 'plugin:react/jsx-runtime',
     isDependency('react') && 'plugin:react-hooks/recommended',
     isDependency('next') && 'plugin:@next/next/recommended',
   ]),
+
+  plugins: truthyArray([
+    'unicorn',
+    isDependency('react') && 'react',
+    isDependency('react') && 'react-hooks',
+  ]),
+
+  settings: {
+    ...(isDependency('react') && {
+      react: {
+        version: 'detect',
+      },
+    }),
+  },
+
+  rules: {
+    'no-unused-vars': [
+      'error',
+      {
+        args: 'none',
+      },
+    ],
+    'unicorn/prefer-node-protocol': 'error',
+    'unicorn/filename-case': 'error',
+  },
+
   overrides: [
     {
+      files: ['**/*.{ts,tsx}'],
+      parser: '@typescript-eslint/parser',
+      plugins: ['@typescript-eslint'],
       extends: [
         'plugin:@typescript-eslint/recommended',
         'plugin:@typescript-eslint/recommended-requiring-type-checking',
       ],
-      files: ['**/*.{ts,tsx}'],
       parserOptions: {
         project: ['./tsconfig.json'],
       },
+      rules: {
+        '@typescript-eslint/no-unused-vars': [
+          'error',
+          {
+            args: 'none',
+          },
+        ],
+        '@typescript-eslint/no-misused-promises': [
+          'error',
+          {
+            checksVoidReturn: {
+              attributes: false,
+            },
+          },
+        ],
+
+        '@typescript-eslint/consistent-type-imports': [
+          'error',
+          {
+            fixStyle: 'inline-type-imports',
+          },
+        ],
+      },
     },
   ],
-  parser: '@typescript-eslint/parser',
-  plugins: truthyArray([
-    '@typescript-eslint',
-    isDependency('react') && 'react',
-    isDependency('react') && 'react-hooks',
-  ]),
-  root: true,
-  settings: {
-    react: {
-      version: 'detect',
-    },
-  },
 };
 
 module.exports = config;
