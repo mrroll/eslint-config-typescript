@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.201.0",
+  "version": "0.202.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -42,7 +42,7 @@
     "prettier": "^2.8.8"
   },
   "devDependencies": {
-    "@swc/core": "^1.3.67",
+    "@swc/core": "^1.3.68",
     "@tsconfig/node18": "^18.2.0",
     "@types/node": "^18.16.19",
     "cross-env": "^7.0.3",
