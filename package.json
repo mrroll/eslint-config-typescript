@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.226.0",
+  "version": "0.227.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -38,14 +38,14 @@
     "eslint-plugin-unicorn": "^48.0.1"
   },
   "peerDependencies": {
-    "eslint": "^8.47.0",
+    "eslint": "^8.48.0",
     "prettier": "^3.0.2"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.1",
     "@types/node": "^18.17.11",
     "cross-env": "^7.0.3",
-    "eslint": "^8.47.0",
+    "eslint": "^8.48.0",
     "nodemon": "^3.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^3.0.2",
@@ -55,7 +55,7 @@
     "type-fest": "^4.2.0",
     "typescript": "^5.2.2",
     "vite-tsconfig-paths": "^4.2.0",
-    "vitest": "^0.34.2",
+    "vitest": "^0.34.3",
     "yalc": "^1.0.0-pre.53"
   }
 }
