@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.230.0",
+  "version": "0.231.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.1",
-    "@types/node": "^18.17.12",
+    "@types/node": "^18.17.13",
     "cross-env": "^7.0.3",
     "eslint": "^8.48.0",
     "nodemon": "^3.0.1",
@@ -51,7 +51,7 @@
     "prettier": "^3.0.3",
     "rimraf": "^4.4.1",
     "tsc-alias": "^1.8.7",
-    "tsx": "^3.12.7",
+    "tsx": "^3.12.8",
     "type-fest": "^4.3.1",
     "typescript": "^5.2.2",
     "vite-tsconfig-paths": "^4.2.0",
