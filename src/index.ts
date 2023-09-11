@@ -56,6 +56,7 @@ const config = {
             args: 'none',
           },
         ],
+
         '@typescript-eslint/no-misused-promises': [
           'error',
           {
@@ -71,6 +72,9 @@ const config = {
             fixStyle: 'inline-type-imports',
           },
         ],
+
+        '@typescript-eslint/require-await': 'warn',
+        '@typescript-eslint/no-floating-promises': 'warn',
       },
     },
   ],
