@@ -10,6 +10,7 @@ const config = {
     isDependency('react') && 'plugin:react/jsx-runtime',
     isDependency('react') && 'plugin:react-hooks/recommended',
     isDependency('next') && 'plugin:@next/next/recommended',
+    'prettier',
   ]),
 
   plugins: truthyArray([
