@@ -4,8 +4,7 @@
     "allowJs": true,
     "baseUrl": ".",
     "paths": {
-      "@/plugin": ["src"],
-      "@/helpers/*": ["src/helpers/*"]
+      "@/*": ["src/*"]
     },
     "outDir": "lib",
     "declaration": true

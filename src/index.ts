@@ -1,4 +1,5 @@
 import isDependency from '@/helpers/is-dependency';
+import { isNextEnabled } from '@/helpers/is-next-enabled';
 
 const truthyArray = (array: Array<unknown>) => array.filter(Boolean);
 
@@ -9,7 +10,7 @@ const config = {
     'eslint:recommended',
     isDependency('react') && 'plugin:react/jsx-runtime',
     isDependency('react') && 'plugin:react-hooks/recommended',
-    isDependency('next') && 'plugin:@next/next/recommended',
+    isNextEnabled() && 'plugin:@next/next/recommended',
     'prettier',
   ]),
 

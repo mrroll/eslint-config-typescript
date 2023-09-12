@@ -1,3 +1,3 @@
-import plugin from '@/plugin';
+import plugin from '@/index';
 
 console.log('+++ DEBUG', JSON.stringify(plugin, null, 2));
