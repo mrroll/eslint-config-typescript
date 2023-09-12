@@ -8,7 +8,7 @@ export const isNextEnabled = () => {
 
   if (
     disabledPackages.some((disabledPackage) => {
-      disabledPackage === packageJson.name;
+      return disabledPackage === packageJson.name;
     })
   ) {
     return false;

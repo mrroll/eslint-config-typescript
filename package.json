@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.239.0",
+  "version": "0.240.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
