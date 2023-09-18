@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.244.0",
+  "version": "0.245.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -26,14 +26,14 @@
     "lint": "npx eslint './src/**/**'"
   },
   "volta": {
-    "node": "18.17.1",
+    "node": "18.18.0",
     "yarn": "1.22.19"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^13.4.19",
     "@rushstack/eslint-patch": "^1.4.0",
-    "@typescript-eslint/eslint-plugin": "^6.7.0",
-    "@typescript-eslint/parser": "^6.7.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.2",
+    "@typescript-eslint/parser": "^6.7.2",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
