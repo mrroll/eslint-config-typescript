@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.251.0",
+  "version": "0.252.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -30,10 +30,10 @@
     "yarn": "1.22.19"
   },
   "dependencies": {
-    "@next/eslint-plugin-next": "^13.5.2",
-    "@rushstack/eslint-patch": "^1.4.0",
-    "@typescript-eslint/eslint-plugin": "^6.7.2",
-    "@typescript-eslint/parser": "^6.7.2",
+    "@next/eslint-plugin-next": "^13.5.3",
+    "@rushstack/eslint-patch": "^1.5.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.3",
+    "@typescript-eslint/parser": "^6.7.3",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
@@ -46,7 +46,7 @@
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.1.0",
     "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^18.17.19",
+    "@types/node": "^18.18.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.50.0",
     "nodemon": "^3.0.1",
@@ -55,7 +55,7 @@
     "rimraf": "^4.4.1",
     "tsc-alias": "^1.8.8",
     "tsx": "^3.13.0",
-    "type-fest": "^4.3.1",
+    "type-fest": "^4.3.2",
     "typescript": "^5.2.2",
     "vite-tsconfig-paths": "^4.2.1",
     "vitest": "^0.34.5",
