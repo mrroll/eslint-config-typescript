@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.257.0",
+  "version": "0.258.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -26,7 +26,7 @@
     "lint": "npx eslint './src/**/**'"
   },
   "volta": {
-    "node": "18.18.0",
+    "node": "18.18.1",
     "yarn": "1.22.19"
   },
   "dependencies": {
