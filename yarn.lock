@@ -444,10 +444,10 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@next/eslint-plugin-next@^14.0.1":
-  version "14.0.1"
-  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-14.0.1.tgz#6e587b76588a02d77267945b5d1f059a6c8fd9ca"
-  integrity sha512-bLjJMwXdzvhnQOnxvHoTTUh/+PYk6FF/DCgHi4BXwXCINer+o1ZYfL9aVeezj/oI7wqGJOqwGIXrlBvPbAId3w==
+"@next/eslint-plugin-next@^14.0.2":
+  version "14.0.2"
+  resolved "https://registry.yarnpkg.com/@next/eslint-plugin-next/-/eslint-plugin-next-14.0.2.tgz#421799f46116d8032f1739ce5ce89822453c8f03"
+  integrity sha512-APrYFsXfAhnysycqxHcpg6Y4i7Ukp30GzVSZQRKT3OczbzkqGjt33vNhScmgoOXYBU1CfkwgtXmNxdiwv1jKmg==
   dependencies:
     glob "7.1.7"
 
@@ -3250,10 +3250,10 @@ tsconfck@^2.1.0:
   resolved "https://registry.yarnpkg.com/tsconfck/-/tsconfck-2.1.1.tgz#9b51603d2712d1f4740fa14748ca886a2e1893e5"
   integrity sha512-ZPCkJBKASZBmBUNqGHmRhdhM8pJYDdOXp4nRgj/O0JwUwsMq50lCDRQP/M5GBNAA0elPrq4gAeu4dkaVCuKWww==
 
-tsx@^3.14.0:
-  version "3.14.0"
-  resolved "https://registry.yarnpkg.com/tsx/-/tsx-3.14.0.tgz#be6e2176b6f210fe8f48124fb6e22e0f075e927b"
-  integrity sha512-xHtFaKtHxM9LOklMmJdI3BEnQq/D5F73Of2E1GDrITi9sgoVkvIsrQUTY1G8FlmGtA+awCI4EBlTRRYxkL2sRg==
+tsx@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.0.0.tgz#08675c880204de55cfd6a4216f5f52aa899432db"
+  integrity sha512-jd3C5kw9tR68gtvqHUYo/2IwxaA46/CyKvcVQ4DsKRAPb19/vWgl7zF9mYNjFRY6KcGKiwne41RU91ll31IggQ==
   dependencies:
     esbuild "~0.18.20"
     get-tsconfig "^4.7.2"
@@ -3288,10 +3288,10 @@ type-fest@^0.8.1:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
-type-fest@^4.7.0:
-  version "4.7.0"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.7.0.tgz#f1b65f6eaf2486d3a873bd6a63a4ac7c8f99baca"
-  integrity sha512-OYI0GNgutT8XtqvoSYUWzBkwoTXgkDVJSSyzzjtGp+HNyrGOJypM2UHtbnbEmNk2/OI7YmKpjjI/gfFSrfEQwQ==
+type-fest@^4.7.1:
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.7.1.tgz#dbe462c5f350d708ec6ca6fe8925b5b6541ca9a7"
+  integrity sha512-iWr8RUmzAJRfhZugX9O7nZE6pCxDU8CZ3QxsLuTnGcBLJpCaP2ll3s4eMTBoFnU/CeXY/5rfQSuAEsTGJO4y8A==
 
 typed-array-buffer@^1.0.0:
   version "1.0.0"
