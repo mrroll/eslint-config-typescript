@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.277.0",
+  "version": "0.278.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -27,7 +27,7 @@
   },
   "volta": {
     "node": "18.18.2",
-    "yarn": "1.22.19"
+    "yarn": "1.22.21"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^14.0.2",
@@ -54,7 +54,7 @@
     "prettier": "^3.1.0",
     "rimraf": "^4.4.1",
     "tsc-alias": "^1.8.8",
-    "tsx": "^4.1.1",
+    "tsx": "^4.1.2",
     "type-fest": "^4.7.1",
     "typescript": "^5.2.2",
     "vite-tsconfig-paths": "^4.2.1",
