@@ -3250,10 +3250,10 @@ tsconfck@^2.1.0:
   resolved "https://registry.yarnpkg.com/tsconfck/-/tsconfck-2.1.1.tgz#9b51603d2712d1f4740fa14748ca886a2e1893e5"
   integrity sha512-ZPCkJBKASZBmBUNqGHmRhdhM8pJYDdOXp4nRgj/O0JwUwsMq50lCDRQP/M5GBNAA0elPrq4gAeu4dkaVCuKWww==
 
-tsx@^4.1.4:
-  version "4.1.4"
-  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.1.4.tgz#e8c18cb5e890b410915d3cfa92b94d5e3147f465"
-  integrity sha512-9X7uBCIyUsvMzIH+o8m+5o/5eL461cChCF+XUtOZsPr1a4pZx2lTQx0Muu5G5VwJWZwAGKBe3sJHLk82BENAVw==
+tsx@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.2.0.tgz#cc7d62bbea50b98ea37341b55d86cd4872500a27"
+  integrity sha512-hvAXAz4KUYNyjXOjJJgyjT7YOGFUNLC8jnODI6Omc/wGKaZ7z0FvW5d2haqg1GLfX49H3nZOpLYRlHMYGI8Wbw==
   dependencies:
     esbuild "~0.18.20"
     get-tsconfig "^4.7.2"
@@ -3288,10 +3288,10 @@ type-fest@^0.8.1:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.8.1.tgz#09e249ebde851d3b1e48d27c105444667f17b83d"
   integrity sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==
 
-type-fest@^4.8.1:
-  version "4.8.1"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.8.1.tgz#2a5bf1074abb580d2d6eb5c1e79c11147fd11d4f"
-  integrity sha512-ShaaYnjf+0etG8W/FumARKMjjIToy/haCaTjN2dvcewOSoNqCQzdgG7m2JVOlM5qndGTHjkvsrWZs+k/2Z7E0Q==
+type-fest@^4.8.2:
+  version "4.8.2"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.8.2.tgz#20d4cc287745723dbabf925de644eeb7de0349c1"
+  integrity sha512-mcvrCjixA5166hSrUoJgGb9gBQN4loMYyj9zxuMs/66ibHNEFd5JXMw37YVDx58L4/QID9jIzdTBB4mDwDJ6KQ==
 
 typed-array-buffer@^1.0.0:
   version "1.0.0"
