@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.289.0",
+  "version": "0.290.0",
   "license": "MIT",
   "engines": {
     "node": ">=16.10.0"
@@ -26,7 +26,7 @@
     "lint": "npx eslint './src/**/**'"
   },
   "volta": {
-    "node": "18.18.2",
+    "node": "18.19.0",
     "yarn": "1.22.21"
   },
   "dependencies": {
@@ -46,7 +46,7 @@
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^18.18.13",
+    "@types/node": "^18.18.14",
     "cross-env": "^7.0.3",
     "eslint": "^8.54.0",
     "nodemon": "^3.0.1",
