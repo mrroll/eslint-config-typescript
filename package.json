@@ -1,9 +1,9 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.295.0",
+  "version": "0.296.0",
   "license": "MIT",
   "engines": {
-    "node": ">=16.10.0"
+    "node": ">=18.0.0"
   },
   "repository": "https://github.com/mrroll/eslint-config-typescript",
   "author": "mrroll",
