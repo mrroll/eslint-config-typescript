@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.296.0",
+  "version": "0.297.0",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
@@ -58,7 +58,7 @@
     "type-fest": "^4.8.3",
     "typescript": "^5.3.3",
     "vite-tsconfig-paths": "^4.2.2",
-    "vitest": "^1.0.2",
+    "vitest": "^1.0.4",
     "yalc": "^1.0.0-pre.53"
   }
 }
