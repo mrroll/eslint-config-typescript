@@ -6,18 +6,19 @@ const truthyArray = (array: Array<unknown>) => array.filter(Boolean);
 const config = {
   root: true,
 
+  plugins: truthyArray([
+    'unicorn',
+    isDependency('react') && 'react',
+    isDependency('react') && 'react-hooks',
+    isDependency('drizzle-orm') && 'drizzle',
+  ]),
+
   extends: truthyArray([
     'eslint:recommended',
     isDependency('react') && 'plugin:react/jsx-runtime',
     isDependency('react') && 'plugin:react-hooks/recommended',
     isNextEnabled() && 'plugin:@next/next/recommended',
     'prettier',
-  ]),
-
-  plugins: truthyArray([
-    'unicorn',
-    isDependency('react') && 'react',
-    isDependency('react') && 'react-hooks',
   ]),
 
   settings: {
@@ -37,6 +38,21 @@ const config = {
     ],
     'unicorn/prefer-node-protocol': 'error',
     'unicorn/filename-case': 'error',
+
+    ...(isDependency('drizzle-orm') && {
+      'drizzle/enforce-delete-with-where': [
+        'error',
+        {
+          drizzleObjectName: ['drizzle'],
+        },
+      ],
+      'drizzle/enforce-update-with-where': [
+        'error',
+        {
+          drizzleObjectName: ['drizzle'],
+        },
+      ],
+    }),
   },
 
   overrides: [
