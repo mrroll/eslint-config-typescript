@@ -43,13 +43,13 @@ const config = {
       'drizzle/enforce-delete-with-where': [
         'error',
         {
-          drizzleObjectName: ['drizzle'],
+          drizzleObjectName: ['drizzle', 'tx'],
         },
       ],
       'drizzle/enforce-update-with-where': [
         'error',
         {
-          drizzleObjectName: ['drizzle'],
+          drizzleObjectName: ['drizzle', 'tx'],
         },
       ],
     }),
