@@ -60,10 +60,7 @@ const config = {
       files: ['**/*.{ts,tsx}'],
       parser: '@typescript-eslint/parser',
       plugins: ['@typescript-eslint'],
-      extends: [
-        'plugin:@typescript-eslint/recommended',
-        'plugin:@typescript-eslint/recommended-type-checked',
-      ],
+      extends: ['plugin:@typescript-eslint/recommended-type-checked'],
       parserOptions: {
         project: ['./tsconfig.json'],
       },
