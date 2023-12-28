@@ -30,14 +30,28 @@ const config = {
   },
 
   rules: {
+    // Overridden by plugin:@typescript-eslint/recommended-type-checked in Typescript files because of @typescript-eslint/no-unused-vars.
     'no-unused-vars': [
       'error',
       {
         args: 'none',
       },
     ],
+    // Overridden manually in Typescript files because of @typescript-eslint/require-await.
+    'require-await': ['warn'],
+
+    'object-shorthand': ['error', 'always'],
+    'no-use-before-define': ['error'],
+
     'unicorn/prefer-node-protocol': 'error',
-    'unicorn/filename-case': 'error',
+    'unicorn/filename-case': [
+      'error',
+      {
+        case: 'kebabCase',
+        // Allow all-uppercase filenames
+        ignore: ['^[A-Z]+.*\\.(ts|tsx|js|jsx)$'],
+      },
+    ],
 
     ...(isDependency('drizzle-orm') && {
       'drizzle/enforce-delete-with-where': [
@@ -65,12 +79,15 @@ const config = {
         project: ['./tsconfig.json'],
       },
       rules: {
+        'require-await': ['off'],
+
         '@typescript-eslint/no-unused-vars': [
           'error',
           {
             args: 'none',
           },
         ],
+        '@typescript-eslint/require-await': 'warn',
 
         '@typescript-eslint/no-misused-promises': [
           'error',
@@ -80,6 +97,7 @@ const config = {
             },
           },
         ],
+        '@typescript-eslint/no-floating-promises': 'warn',
 
         '@typescript-eslint/consistent-type-imports': [
           'error',
@@ -87,9 +105,6 @@ const config = {
             fixStyle: 'inline-type-imports',
           },
         ],
-
-        '@typescript-eslint/require-await': 'warn',
-        '@typescript-eslint/no-floating-promises': 'warn',
       },
     },
   ],
