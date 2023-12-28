@@ -62,7 +62,7 @@ const config = {
       plugins: ['@typescript-eslint'],
       extends: [
         'plugin:@typescript-eslint/recommended',
-        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        'plugin:@typescript-eslint/recommended-type-checked',
       ],
       parserOptions: {
         project: ['./tsconfig.json'],
