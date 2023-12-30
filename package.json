@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.312.0",
+  "version": "0.313.0",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
@@ -47,7 +47,7 @@
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
     "@tsconfig/node18": "^18.2.2",
-    "@types/node": "^18.19.3",
+    "@types/node": "^18.19.4",
     "cross-env": "^7.0.3",
     "eslint": "^8.56.0",
     "nodemon": "^3.0.2",
