@@ -1,6 +1,6 @@
 {
   "name": "@mrroll/eslint-config-typescript",
-  "version": "0.314.0",
+  "version": "0.315.0",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
@@ -38,7 +38,10 @@
     "eslint-plugin-drizzle": "^0.2.3",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-unicorn": "^50.0.1"
+    "eslint-plugin-unicorn": "^50.0.1",
+    "find-up": "5.0.0",
+    "ts-pattern": "^5.0.6",
+    "typescript": "^5.3.3"
   },
   "peerDependencies": {
     "eslint": "^8.56.0",
@@ -57,7 +60,6 @@
     "tsc-alias": "^1.8.8",
     "tsx": "^4.7.0",
     "type-fest": "^4.9.0",
-    "typescript": "^5.3.3",
     "vite-tsconfig-paths": "^4.2.3",
     "vitest": "^1.1.1",
     "yalc": "^1.0.0-pre.53"

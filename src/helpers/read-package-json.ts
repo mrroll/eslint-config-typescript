@@ -1,10 +1,15 @@
 import * as fs from 'node:fs';
-import * as path from 'node:path';
 
+import * as findUp from 'find-up';
 import type { PackageJson } from 'type-fest';
 
-export default function readPackageJson() {
-  const packageJsonPath = path.resolve(process.cwd(), 'package.json');
+export const readPackageJson = () => {
+  const packageJsonPath = findUp.sync('package.json');
+
+  if (typeof packageJsonPath === 'undefined') {
+    throw new Error('Could not find package.json');
+  }
+
   const packageJsonString = fs.readFileSync(packageJsonPath, 'utf-8');
   return JSON.parse(packageJsonString) as PackageJson;
-}
+};

@@ -1,6 +1,6 @@
-import readPackageJson from '@/helpers/read-package-json';
+import { readPackageJson } from '@/helpers/read-package-json';
 
-export default function isDependency(dependency: string) {
+export const isDependency = (dependency: string) => {
   const packageJson = readPackageJson();
   const { dependencies, devDependencies } = packageJson;
 
@@ -11,4 +11,4 @@ export default function isDependency(dependency: string) {
 
     return dependency in dependencyList;
   });
-}
+};

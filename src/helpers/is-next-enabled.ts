@@ -1,5 +1,5 @@
-import isDependency from '@/helpers/is-dependency';
-import readPackageJson from '@/helpers/read-package-json';
+import { isDependency } from '@/helpers/is-dependency';
+import { readPackageJson } from '@/helpers/read-package-json';
 
 const disabledPackages = ['@mrroll/next-config'];
 

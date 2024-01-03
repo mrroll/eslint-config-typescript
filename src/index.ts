@@ -1,5 +1,6 @@
-import isDependency from '@/helpers/is-dependency';
+import { isDependency } from '@/helpers/is-dependency';
 import { isNextEnabled } from '@/helpers/is-next-enabled';
+import { isStrict } from '@/helpers/is-strict';
 
 const truthyArray = (array: Array<unknown>) => array.filter(Boolean);
 
@@ -105,6 +106,10 @@ const config = {
             fixStyle: 'inline-type-imports',
           },
         ],
+
+        ...(isStrict() && {
+          '@typescript-eslint/no-unnecessary-condition': 'error',
+        }),
       },
     },
   ],
